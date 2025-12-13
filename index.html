@@ -3,156 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Arte de Alojar tu Web: Una Guía Esencial</title>
-    <link rel="stylesheet" href="styles.css"> </head>
+    <title>Mi Sitio Informativo Personal - Atractivo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 <body>
-
-    <header class="hero">
-        <h1>💻 El alojamiento web 🌐</h1>
-        <p>Toda la información que necesitas sobre Alojamiento Web en un solo lugar.</p>
+    
+    <header>
+        <div class="logo">Mi Sitio Informativo Personal</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#personal">Datos Personales</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         
-        <section class="tema principal-concepto">
-            <h2>⭐ ¿Qué es el Alojamiento Web?</h2>
-            <p>El **Alojamiento Web** (o *Web Hosting*) es el servicio que almacena sitios web o aplicaciones web y los hace fácilmente **accesibles** desde diversos dispositivos, como computadoras de escritorio, teléfonos móviles y tabletas. Cualquier aplicación web o sitio web suele estar formado por muchos archivos, como imágenes, vídeos, texto y código, que hay que almacenar en ordenadores especiales llamados **servidores**. El proveedor de servicios de alojamiento web mantiene, configura y ejecuta los servidores físicos que usted puede alquilar para sus archivos.</p>
-        </section>
-
-        <section class="tema importancia">
-            <h2>✨ ¿Por qué es Vital el Alojamiento Web?</h2>
-            <div class="cards-container">
-                <div class="card">
-                    <h3>Rendimiento</h3>
-                    <p>Invierten en tecnología de vanguardia para que dispongas de servidores web de alto rendimiento con capacidad de procesamiento, memoria y otros recursos, mejorando la **velocidad de carga**.</p>
-                </div>
-                <div class="card">
-                    <h3>Fiabilidad</h3>
-                    <p>Evitas el mantenimiento continuo. Realizan actualizaciones periódicas del sistema para mantener un alto nivel de seguridad y **disponibilidad**.</p>
-                </div>
-                <div class="card">
-                    <h3>Soporte Técnico</h3>
-                    <p>Ofrecen asistencia completa, optimizan la supervisión y el análisis, la **copia de seguridad y recuperación de datos**.</p>
-                </div>
-                <div class="card">
-                    <h3>Seguridad y Cumplimiento</h3>
-                    <p>Utilizan un enfoque integral con medidas físicas, operativas y de software que satisfacen todos los **requisitos de cumplimiento**.</p>
-                </div>
+        <section id="inicio" class="inicio">
+            <h2>¡Hola! Bienvenido(a) a mi sitio.</h2>
+            <div class="descripcion-personal">
+                <p>Soy Johann y me especializo en Comunicacion y diseño. Utilizo este espacio para compartir mi trayectoria profesional, mis habilidades y los proyectos en los que he trabajado. Mi objetivo es acabar la carrera</p>
+                <p>Actualmente me encuentro estudiando en UVM y estoy siempre abierto a nuevas oportunidades de colaboración y aprendizaje.</p>
             </div>
         </section>
 
-        <section class="tema caracteristicas">
-            <h2>⚙️ Características Esenciales del Alojamiento</h2>
-            <div class="item-list">
-                <div class="item">
-                    <h3>Espacio en Disco</h3>
-                    <p>Almacenamiento necesario para correos electrónicos, archivos web, imágenes y bases de datos. Importante para la **experiencia del usuario**.</p>
-                </div>
-                <div class="item">
-                    <h3>Ancho de Banda y Transferencia de Datos</h3>
-                    <p>El ancho de banda es la **cantidad máxima** de datos que puede transferir. La transferencia de datos es la **cantidad real** que se transfiere en un periodo determinado.</p>
-                </div>
-                <div class="item">
-                    <h3>Cuentas de Correo Electrónico</h3>
-                    <p>Planes con cuentas vinculadas a tu dominio (ej: `nombre@example.com`). Tipos: POP3, Reenvío de correo y Alias.</p>
-                </div>
-                <div class="item">
-                    <h3>Acceso FTP</h3>
-                    <p>Permite la **transferencia e intercambio de archivos** (documentos, imágenes) entre tu computadora y el servidor web.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="tema diferencia">
-            <h2>🔑 Alojamiento vs. Nombre de Dominio</h2>
-            <div class="tabla-contenedor">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Concepto</th>
-                            <th>Función Principal</th>
-                            <th>Analogía</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>**Alojamiento Web**</td>
-                            <td>Proporciona el **servidor físico** o máquina en Internet.</td>
-                            <td>El edificio donde se guardan tus archivos.</td>
-                        </tr>
-                        <tr>
-                            <td>**Nombre de Dominio**</td>
-                            <td>Proporciona la **dirección fácil de recordar** que apunta a ese servidor.</td>
-                            <td>La dirección web (`aws.amazon.com`).</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <p class="nota">Para que tu sitio sea accesible, necesitas **ambos**: una cuenta de alojamiento y un nombre de dominio registrado.</p>
-        </section>
-
-        <section class="tema tipos-hosting">
-            <h2>🚀 Tipos de Servicios de Alojamiento Web</h2>
+        <section id="personal" class="datos-personales">
+            <h2>Datos Personales y Contacto Directo</h2>
             
-            <div class="tipo-item">
-                <h3>1. Alojamiento Compartido</h3>
-                <p>Compartes un único servidor y sus recursos (CPU, RAM) con cientos de otros sitios web.</p>
+            <div class="info-detallada card">
+              <h3>Información Clave</h3>
                 <ul>
-                    <li>**Ideal para:** Blogs personales, PYMES.</li>
-                    <li>**Limitaciones:** El rendimiento puede verse afectado por el tráfico de otros sitios.</li>
-                </ul>
-            </div>
-
-            <div class="tipo-item">
-                <h3>2. Alojamiento en Servidor Privado Virtual (VPS)</h3>
-                <p>El servidor físico se particiona en **servidores virtuales**. Tienes acceso exclusivo a los recursos de tu partición.</p>
-                <ul>
-                    <li>**Ideal para:** Empresas medianas con tráfico creciente, sitios complejos.</li>
-                    <li>**Ventajas:** Control total sobre la configuración, fácil escalabilidad.</li>
-                </ul>
-            </div>
-            
-            <div class="tipo-item">
-                <h3>3. Alojamiento Dedicado</h3>
-                <p>Alquilas el **servidor físico completo** y tienes acceso exclusivo a todos sus recursos.</p>
-                <ul>
-                    <li>**Ideal para:** Empresas grandes, aplicaciones complejas con alta demanda de potencia.</li>
-                    <li>**Ventajas:** Máxima fiabilidad, seguridad y personalización.</li>
-                </ul>
-            </div>
-
-            <div class="tipo-item">
-                <h3>4. Alojamiento en la Nube (Cloud Hosting)</h3>
-                <p>Utiliza un **clúster de servidores** interconectados. Los archivos se replican, redirigiendo el tráfico si un servidor está ocupado.</p>
-                <ul>
-                    <li>**Ideal para:** Todo tipo de empresas, especialmente e-commerce y aplicaciones complejas.</li>
-                    <li>**Ventajas:** Alta disponibilidad, **escalabilidad automática** y pago por uso.</li>
+                    <li>Johann Alexis Martínez Vázquez&nbsp;</li>
+                    <li>Lic. en comunicación y diseño grafico&nbsp;</li>
+                    <li>México</li>
+                    <li>Johannmtzv@gmail.com<a href="mailto:tu.correo@ejemplo.com">&nbsp;</a></li>
+                    <li>55555555555&nbsp;</li>
                 </ul>
             </div>
         </section>
 
-        <section class="tema aws">
-            <h2>☁️ Soluciones de Alojamiento Web con AWS</h2>
-            <p>AWS ofrece soluciones que se adaptan a todos los requisitos empresariales, niveles de habilidad y presupuestos:</p>
+        <section id="contacto" class="formulario-contacto">
+            <h2>Envíame un Mensaje</h2>
+            <form action="#" method="POST" class="formulario">
+                
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan Pérez" required>
 
-            <div class="aws-servicio">
-                <h3>AWS Amplify (Arquitectura Sin Servidor)</h3>
-                <p>Implementación y alojamiento de sitios estáticos y aplicaciones de una sola página **sin administrar recursos**. Totalmente escalable y de pago por uso.</p>
-            </div>
-            <div class="aws-servicio">
-                <h3>Amazon Lightsail (VPS Semiadministrado)</h3>
-                <p>La forma más sencilla de autoadministrar servidores web en AWS. Ofrece instancias de VPS con esquemas preconfigurados (como **WordPress**), a un precio bajo y predecible.</p>
-            </div>
-            <div class="aws-servicio">
-                <h3>Amazon EC2 / S3 (Autoadministrado)</h3>
-                <p>**EC2** ofrece control total (requiere experticia). **S3** es una opción simple y económica para sitios web sencillos y **estáticos**.</p>
-            </div>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
         </section>
 
     </main>
-    
-    <footer class="final">
-        <p>Explora los servicios de alojamiento web de AWS para obtener precios flexibles y escalabilidad desde el primer día. <a href="#">¡Crea una cuenta hoy mismo!</a></p>
+
+    <footer>
+        <p>&copy; 2025 Mi Sitio Personal. Diseño de Alto Contraste y Adaptable.</p>
     </footer>
 
 </body>
